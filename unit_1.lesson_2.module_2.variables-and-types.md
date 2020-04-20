@@ -1,4 +1,4 @@
-# Unit 1, Module 2, Lesson 2: Variables And Types
+# Unit 1, Lesson 2, Module 2: Variables And Types
 
 ## Introduction 
 
@@ -8,7 +8,7 @@ Programming languages - as discussed in Unit 1 Module 1 Lesson 1 _How Engineers 
 
 > Timmy is throwing the ball.
 
-Yes, as with any language the whats, the whos, and the how-manies are more complex than those two simple things but, as you will see, you can accomplish a lot with just those two aspects of a language.
+Yes, as with any language the whats, the whos, and the how-manies are more complex than those two simple things but, as you will see, you can accomplish a lot with just those two aspects of a language. This Module, _Variables And Types_ will focus specifically on the _thing_ aspect of the JavaScript language - something we will spend a lot of time on in the next three modules.
 
 ### Objectives
 
@@ -18,7 +18,6 @@ By the end of this Module, participants will be able to:
 - [ ] define a variable in JavaScript
 - [ ] describe what Engineers mean when we say `type`.
 - [ ] briefly speak to what JSON is (_more will be learned about JSON later_).
-
 
 ## Properties Of A Ball
 
