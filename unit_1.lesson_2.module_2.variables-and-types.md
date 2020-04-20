@@ -21,7 +21,21 @@ By the end of this Module, participants will be able to:
 
 ## Properties Of A Ball
 
+Think of a ball. What is it? Literally take a minute to pause, think, and describe a ball aloud. Chances are you will or did use terms like: diameter; circumference; size; "red", "blue", or "green"; "round"; etc. You are describing _properties_ of a ball. In most programming languages, we can do the same thing: we can _describe properties_ of a real-life object (though unless we were developing a video game or sports-based application maybe "ball" isn't the right metaphor choice). And, like in any written language, we use text to write about those properties:
+
+```javascript
+var color = "green";
+var size = 4;
+var units = "feet"; // <--- that's a huge ball!
+```
+
+Sure, there is some grammar and syntax there you may not recognize, but what we are getting a bit closer to understanding what variables are. The simple point above is that we can use programming languages to _describe_ (in their own way) _properties_.
+
 ### purpose: storage of information
+
+We'll get into the actual execution or "running" of a program later, but an important thing to learn early is that programs don't run forever without some help. In JavaScript, we run a file through something called the (a) JavaScript Engine. The Engine reads in the file, looks at each line, runs each line as the Engine encounters it, then - when finished reading each line of the file - stops. Anything the file tells the Engine (instructions) only hangs around for as long as the Engine is running. 
+
+something to hold information - a place in memory on the computer.
 
 Starting with _describing_ a thing -- what aspects do we have? variables first (then eventually types) --> leading into more complex types.
 
