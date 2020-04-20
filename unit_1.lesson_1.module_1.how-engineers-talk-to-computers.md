@@ -1,4 +1,4 @@
-# Unit 1, Module 1, Lesson 1: How Engineers Talk To Computers
+# Unit 1, Lesson 1, Module 1: How Engineers Talk To Computers
 
 ## Introduction 
 
