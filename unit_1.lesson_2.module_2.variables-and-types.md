@@ -17,7 +17,7 @@ By the end of this Module, participants will be able to:
 - [ ] clearly explain the purpose of a variable
 - [ ] define a variable in JavaScript
 - [ ] describe what Engineers mean when we say `type`.
-- [ ] briefly speak to what JSON is (_more will be learned about JSON later_).
+- [ ] briefly speak to what JSON is (_more will be learned about JSON in later modules_).
 
 ## Properties Of A Ball
 
@@ -29,11 +29,22 @@ var size = 4;
 var units = "feet"; // <--- that's a huge ball!
 ```
 
-Sure, there is some grammar and syntax there you may not recognize, but what we are getting a bit closer to understanding what variables are. The simple point above is that we can use programming languages to _describe_ (in their own way) _properties_.
+Sure, there is some grammar and syntax above you may not recognize, but we are getting a bit closer to understanding what role variables play in languages. The simple point above is that we can use programming languages to _describe_ (in their own way) _properties_.
 
 ### purpose: storage of information
 
-We'll get into the actual execution or "running" of a program later, but an important thing to learn early is that programs don't run forever without some help. In JavaScript, we run a file through something called the (a) JavaScript Engine. The Engine reads in the file, looks at each line, runs each line as the Engine encounters it, then - when finished reading each line of the file - stops. Anything the file tells the Engine (instructions) only hangs around for as long as the Engine is running. 
+We'll get into the actual execution or "running" of a program later, but an important thing to learn early is that programs don't run forever without some help. In JavaScript, we run a file (the program) through something called a JavaScript Engine. The Engine reads in the file, looks at each line and runs each line as the Engine encounters it, then - when finished reading each line of the file - stops. Anything the file tells the Engine (instructions) to do only hangs around for as long as the Engine is running (and even this gets a bit more complex).
+
+As the Engine is running our code, we want a place where we can share information with other parts of our code. If I say that `a ball is green`, maybe I need to make a decision about what to do with that ball, later. Variables help us accomplish just this. Variables - when read - say to the Engine, "hey, set a place for me." That place is then given the value by the of whatever we need it to be. Until the Engine is done, that variable will be around for use later.
+
+All of this is happening in computer memory used by the code the Engine is running. 
+
+https://dev.to/arthurbiensur/kind-of-getting-the-memory-address-of-a-javascript-object-2mnd
+
+Can't access for security reasons.
+
+[ parts of a variable -- create a diagram]
+
 
 something to hold information - a place in memory on the computer.
 
