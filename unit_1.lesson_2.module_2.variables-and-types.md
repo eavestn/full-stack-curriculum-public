@@ -41,13 +41,23 @@ You may not recognize some grammar and syntax above, but we are getting a bit cl
 
 We'll cover actually executing or "running" a program later. 
 
-An important thing to learn early is that programs don't run forever. In JavaScript, we run a file (the program) through something called a _JavaScript Engine_. The Engine [1] reads in a file, [2] looks at each line and runs each line as the Engine encounters it, then - when finished reading each line of the file - [3] stops. Anything the code file (instructions) tells the Engine to do only hangs around for as long as the Engine is running (and even this gets a bit more complex).
+An important thing to know early is that programs don't always run forever. In JavaScript, for instance, we execute a file (the program) using something called a _JavaScript Engine_. The Engine [1] reads in a file, [2] looks at each line and runs each line as the Engine encounters it, then - when finished reading each line of the file - [3] stops. Anything the code file (instructions) tells the Engine to do only hangs around for as long as the Engine is running (and even this gets a bit more complex).
 
 As the Engine is running our code - executing each line, following it, then discarding it - we want a place where we can share information with other, future parts of our code. If we say `a ball is green`, we may need to make a later decision about what to do with that ball, maybe even based on its color. Variables help us accomplish just this. Variables - when read by the Engine - say, "hey, set a place in memory for me." That place is then given the value of whatever we need it to be. Until the Engine is done, that variable will be around for use later.
 
 All of this is happening in computer memory used by the code the Engine is running. In some languages, if you attempt to "read" a variable while the program is running, you will actually see the variable's address (the place where the variable lives) in memory. It'll even look a little like something only a computer could understand: `#<6C1457DBD4>` . For security reasons (protecting our code from malicious users), [JavaScript doesn't enable retrieving these addresses](https://dev.to/arthurbiensur/kind-of-getting-the-memory-address-of-a-javascript-object-2mnd).
 
 ### Variables: How To Read And Write Them
+
+Every language has a syntax - a structure - we follow. For English learners, "syntax" should evoke horrid memories of red and blue crayons underlining the parts of a sentence. Welp. JavaScript is no exception. JavaScript has expectations about _how_ it is written. This expectation is enforced by the Engine, mentioned earlier. The syntax ensures the Engine can understand what it is that we are trying to communicate. 
+
+We leared a moment ago that a variable intends to describe the property of something. We also saw a very quick and sneaky example of JavaScript variable syntax:
+
+```js
+var color = "green";
+```
+
+There are five pieces to the above JavaScript [statement](https://www.teamten.com/lawrence/programming/intro/intro2.html). 
 
 [ parts of a variable -- create a diagram]
 
